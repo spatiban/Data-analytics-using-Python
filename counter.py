@@ -19,6 +19,6 @@ def run(path):
     d = {x:a.count(x) for x in a} #Allotting in the dictionary from the array
     return max(d, key= d.get) #Sorting and returning from the dictionary
     File.close()
-print(run('textfile')) # Since file exists in the same folder, it reads otherwise use different syntax
+print(run('textfile_1')) # Since file exists in the same folder, it reads otherwise use different syntax
 
 #For textfile, use print(run(txtfile.txt))
