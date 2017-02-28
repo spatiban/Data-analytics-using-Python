@@ -8,17 +8,17 @@ Created on Mon Jan 30 12:23:33 2017
 #Function Definition
 def run(path):
     File= open(path,'r') #To open a file and read
-    array=[] #Defining an array
-    dictionary={} #Defining a dictionary
+    a=[] #Defining a list
+    d={} #Defining a dictionary
 
     for line in File:
-        freq=line.lower().strip().split(' ') 
+        words=line.lower().strip().split(' ') 
         
-        for word in freq:
-            array.append(word)
-    dictionary = {a:array.count(a) for a in array} #Allotting in the dictionary from the array
-    return max(dictionary, key= dictionary.get) #Sorting and returning from the dictionary
-
-print(run('textfile_1')) # Since file exists in the same folder, it reads otherwise use different syntax
+        for word in words:
+            a.append(word)
+    d = {x:a.count(x) for x in a} #Allotting in the dictionary from the array
+    return max(d, key= d.get) #Sorting and returning from the dictionary
+    File.close()
+print(run('textfile')) # Since file exists in the same folder, it reads otherwise use different syntax
 
 #For textfile, use print(run(txtfile.txt))
