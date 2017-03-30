@@ -1,4 +1,4 @@
-# Data analytics in Python
+# Data analytics using Python
 
 Code explanation:
 
