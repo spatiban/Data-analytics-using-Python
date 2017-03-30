@@ -1,5 +1,4 @@
-# Python
-Basic file related and scraping project codes.
+# Data analytics in Python
 
 Code explanation:
 
