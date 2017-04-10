@@ -19,3 +19,11 @@ Code explanation:
  6 b) Takes any dictionary with alphabets as keys and integers as values and prints the alphabets with the 3 highest integer references.
 
  6 c) Reports the three words from the text that occur the most number of times using frequency as key.
+
+7) NB: Using Naive Bayes algorithm to classify textual data using the sklearn library.
+
+8) Classification: Using RandomForest algorithm to improve accuracy of the textual data classification from 85% to 90%.
+
+9) gridSearch: Using grid seach to set the parameters of a classifier using KNN (K-nearest neighbours), Decision trees and Logistic Regression.
+
+10) run: Using Latent Dirichlet Allocation for topic modeling.
